@@ -56,7 +56,7 @@ export default function Layout({ children }) {
 					<Row><a href="https://www.snapchat.com/add/betauia"><FontAwesomeIcon icon={faSnapchat} height="16" className="footer-icon" />Snapchat</a></Row>
 					<Row><a href="https://www.facebook.com/beta.linjeforening"><FontAwesomeIcon icon={faFacebook} height="16" className="footer-icon" />Facebook</a></Row>
 					<Row><a href="https://discord.gg/U3N4q25"><FontAwesomeIcon icon={faDiscord} height="16" className="footer-icon" />Discord</a></Row>
-					<Row><a href="https://github.com/beta-engineering-technology-association/"><FontAwesomeIcon icon={faGithub} height="16" className="footer-icon" />Github</a></Row>
+					<Row><a href="https://github.com/betauia/"><FontAwesomeIcon icon={faGithub} height="16" className="footer-icon" />Github</a></Row>
 					</Col>
 				</Row>
 			</Container>
