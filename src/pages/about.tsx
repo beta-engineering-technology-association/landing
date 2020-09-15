@@ -20,7 +20,7 @@ const StyretInfo: Info[] = [
 	},
 	{
 		Img: Logo,
-		Name: "Vinh Hu",
+		Name: "Stian Toften",
 		Position: "Økonomi ansvarlig",
 		Email: "okonomi@betauia.net"
 	},

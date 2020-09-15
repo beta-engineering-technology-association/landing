@@ -47,7 +47,7 @@ export default function Layout({ children }) {
 						</div>
 						<div className="info-group">
 							<Row><h4>Email</h4></Row>
-							<Row>post@betauia.no</Row>
+							<Row>post@betauia.net</Row>
 						</div>
 					</Col>
 					<Col>
