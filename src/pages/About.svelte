@@ -55,9 +55,21 @@
 			<div class="card" in:fly={{y: 20}}>
 				<h2>Om Beta</h2>
 				<p>
+					Beta er linjeforeningen for Dataingeniør Studenter ved
+					Universitetet i Agder. Beta er en non-profit organisasjon.
+					Det betyr Beta ikke driver for å tjene penger, men heller
+					bruker fortjenesten på våre medlemmer. Alle studenter ved
+					datarelaterte fag ved UiA er automatisk medlem av Beta
+					dersom en ikke aktivt melder seg ut.
+				</p>
+			</div>
+
+			<div class="card" in:fly={{y: 20}}>
+				<h2>Historie</h2>
+				<p>
 					Beta Engineering & Technology Association er linjeforeningen
 					for studenter som studere Dataingeniørfag ved Universitetet
-					i Agder. I alt er det omlag 350 studenter som er medlem av
+					i Agder. I alt er det omlag 500 studenter som er medlem av
 					Beta.
 				</p>
 				<p>
