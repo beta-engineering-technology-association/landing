@@ -28,7 +28,7 @@
 	}
 	.container {
 		display: grid;
-		grid-gap: 30px;
+		grid-gap: 20px;
 	}
 	p {
 		margin: 20px 0;
@@ -37,10 +37,7 @@
 		margin: 10px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 30px;
-	}
-	img {
-		margin-bottom: 10px;
+		grid-gap: 20px;
 	}
 </style>
 
@@ -51,8 +48,8 @@
 
 <main>
 	{#if show}
-		<div class="container">
-			<div class="card" in:fly={{y: 20}}>
+		<div class="container" in:fly={{y: 20}}>
+			<div class="card">
 				<h2>Om Beta</h2>
 				<p>
 					Beta er linjeforeningen for datastudenter ved Universitetet
@@ -65,7 +62,7 @@
 				</p>
 			</div>
 
-			<div class="card" in:fly={{y: 20}}>
+			<div class="card">
 				<h2>Historie</h2>
 				<p>
 					Beta ble grunnlagt i 2006 mens det fortsatt het Høyskolen i
@@ -86,7 +83,7 @@
 					som en frivillig organisasjon under STA.
 				</p>
 			</div>
-			<div class="card" in:fly={{y: 20}}>
+			<div class="card">
 				<h2>Interessegrupper</h2>
 				<div class="cont">
 					<div class="half">

@@ -19,7 +19,7 @@
 	}
 	.container {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1.4fr 1fr;
 		grid-gap: 20px;
 	}
 	.card {
@@ -44,6 +44,9 @@
 		margin: 5px;
 		padding: 0;
 	}
+	input {
+		width: 100%;
+	}
 	.full {
 		width: 100%;
 	}
@@ -63,14 +66,6 @@
 		font-weight: normal;
 		color: black;
 	}
-	.centerme {
-		margin: 10px auto;
-		width: 50%;
-		padding: 10px;
-	}
-	img {
-		width: 100%;
-	}
 </style>
 
 <svelte:head>
@@ -82,14 +77,6 @@
 
 <main>
 	{#if show}
-		<div class="centerme">
-			<a href="https://www.soprasteria.no/"><img
-					alt="soprasteria"
-					src={sopraLogo} /></a>
-			<br />
-			<div class="centerme"><i>HOVEDSAMARBEIDSPARTNER</i></div>
-		</div>
-
 		<div class="container" in:fly={{y: 20}}>
 			<div class="card">
 				<h2>Velkommen til BETA!</h2>
@@ -103,6 +90,15 @@
 					ved UiA, fremme kontakten med næringslivet og bidra med
 					sosiale aktiviteter.
 				</p>
+			</div>
+
+			<div class="card">
+				<h2>Logg inn</h2>
+				<label for="username">Brukernavn</label>
+				<input id="username" />
+				<label for="password">Passord</label>
+				<input id="password" type="password" />
+				<input type="submit" value="Logg inn" />
 			</div>
 
 			<div class="card">
@@ -125,27 +121,11 @@
 			</div>
 
 			<div class="card">
-				<div class="full" in:fly>
-					<h2>Facebook</h2>
-					<div
-						class="fb-page"
-						data-href="https://www.facebook.com/beta.linjeforening/"
-						data-tabs="timeline"
-						data-width=""
-						data-height=""
-						data-small-header="true"
-						data-adapt-container-width="true"
-						data-hide-cover="false"
-						data-show-facepile="false">
-						<blockquote
-							cite="https://www.facebook.com/beta.linjeforening/"
-							class="fb-xfbml-parse-ignore">
-							<a
-								href="https://www.facebook.com/beta.linjeforening/">BETA
-								- Linjeforeningen for datastudenter</a>
-						</blockquote>
-					</div>
-				</div>
+				<h2>Hovedsamarbeidspartner</h2>
+				<a href="https://www.soprasteria.no/"><img
+						alt="soprasteria"
+						src={sopraLogo}
+						width="100%" /></a>
 			</div>
 
 			<div class="card">
@@ -174,6 +154,30 @@
 							</p>
 						</a>
 						<div class="gray">28.08.2020</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="full" in:fly>
+					<h2>Facebook</h2>
+					<div
+						class="fb-page"
+						data-href="https://www.facebook.com/beta.linjeforening/"
+						data-tabs="timeline"
+						data-width=""
+						data-height=""
+						data-small-header="true"
+						data-adapt-container-width="true"
+						data-hide-cover="false"
+						data-show-facepile="false">
+						<blockquote
+							cite="https://www.facebook.com/beta.linjeforening/"
+							class="fb-xfbml-parse-ignore">
+							<a
+								href="https://www.facebook.com/beta.linjeforening/">BETA
+								- Linjeforeningen for datastudenter</a>
+						</blockquote>
 					</div>
 				</div>
 			</div>
