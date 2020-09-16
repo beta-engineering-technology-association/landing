@@ -9,7 +9,6 @@
 
 	let show = false;
 
-	const logo = '/logo.png';
 	const sopraLogo = '/sopra-logo.png';
 </script>
 
@@ -63,6 +62,10 @@
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 40px;
 	}
+	p {
+		font-weight: normal;
+		color: black;
+	}
 </style>
 
 <svelte:head>
@@ -101,7 +104,7 @@
 			<div class="card">
 				<div class="cont">
 					<div class="half">
-						<h2>Bedriftspresentasjon</h2>
+						<h2>Bedpres / Kurs</h2>
 						<ul class="nox">
 							<li><a href="/">CGI</a> <span>21.09</span></li>
 							<li><a href="/">Mnemonic</a> <span>15.10</span></li>
@@ -120,7 +123,7 @@
 			<div class="card">
 				<h2>Hovedsamarbeidspartner</h2>
 				<a href="https://www.soprasteria.no/"><img
-						alt="sponsor-logo"
+						alt="soprasteria"
 						src={sopraLogo}
 						width="100%" /></a>
 			</div>
@@ -129,25 +132,27 @@
 				<div>
 					<h2>Siste nytt</h2>
 					<div class="news">
-						<h3 class="dist">BetaLAN Pog!</h3>
-						<p class="dist">
-							Da er det straks klart for en ny runde med BetaLAN!
-							BetaLAN vil foregå på bluebox som vanlig, og finner
-							i år sted den 25.10. Husk å meld dere på
-							arrangementet på forhånd slik at dere kan bestille
-							bordplass
-						</p>
+						<a href="/"><h3 class="dist">BetaLAN Pog!</h3>
+							<p class="dist">
+								Da er det straks klart for en ny runde med
+								BetaLAN! BetaLAN vil foregå på bluebox som
+								vanlig, og finner i år sted den 25.10. Husk å
+								meld dere på arrangementet på forhånd slik at
+								dere bare kan...
+							</p>
+						</a>
 						<div class="gray">28.08.2020</div>
 					</div>
 					<div class="news">
-						<h3 class="dist">CGI</h3>
-						<p class="dist">
-							21.09.2020 Kommer CGI for å holde
-							bedriftspresentasjon med beta! Her er det gode
-							muligheter for å bli kjent med en vikitg aktør fra
-							næringslivet! Det blir servert Wraps og brus!
-							Påmelding via docs skjema! Åpent for alle årstrinn!
-						</p>
+						<a href="/"><h3 class="dist">CGI</h3>
+							<p class="dist">
+								21.09.2020 Kommer CGI for å holde
+								bedriftspresentasjon med beta! Her er det gode
+								muligheter for å bli kjent med en vikitg aktør
+								fra næringslivet! Det blir servert Wraps og
+								brus! Påmelding via docs...
+							</p>
+						</a>
 						<div class="gray">28.08.2020</div>
 					</div>
 				</div>
