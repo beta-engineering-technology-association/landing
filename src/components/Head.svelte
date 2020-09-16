@@ -14,16 +14,13 @@
 		flex-grow: 1;
 	}
 	a {
-		font-size: 24px;
+		font-size: 20px;
 		margin: 0 10px;
-		color: #333;
-		text-decoration: none;
-	}
-	a:hover {
-		color: #057cea;
+		font-weight: normal;
 	}
 	.active {
 		color: #000;
+		font-weight: bold;
 	}
 </style>
 
@@ -31,6 +28,7 @@
 	<e class="active" />
 	<a class="logo" href="/"><img height="32" alt="logo" src={logo} /></a>
 	<a use:active active-class="active" href="/events">ARRANGEMENTER</a>
+	<a use:active active-class="active" href="/jobs">STILLINGSANNONSER</a>
 	<a use:active active-class="active" href="/bedrift">FOR BEDRIFTER</a>
 	<a use:active active-class="active" href="/about">OM BETA</a>
 </nav>

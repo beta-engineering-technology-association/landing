@@ -4,6 +4,7 @@
 	import Head from './components/Head.svelte';
 	import Home from './pages/Home.svelte';
 	import Events from './pages/Events.svelte';
+	import Jobs from './pages/Jobs.svelte';
 	import Bedrift from './pages/Bedrift.svelte';
 	import About from './pages/About.svelte';
 	import Footer from './components/Footer.svelte';
@@ -15,6 +16,9 @@
 </Route>
 <Route path="/events">
 	<Events />
+</Route>
+<Route path="/jobs">
+	<Jobs />
 </Route>
 <Route path="/bedrift">
 	<Bedrift />

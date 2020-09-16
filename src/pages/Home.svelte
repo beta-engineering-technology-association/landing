@@ -20,8 +20,8 @@
 	}
 	.container {
 		display: grid;
-		grid-template-columns: 1.3fr 1fr;
-		grid-gap: 30px;
+		grid-template-columns: 1.4fr 1fr;
+		grid-gap: 20px;
 	}
 	.card {
 		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
@@ -29,10 +29,6 @@
 		border-radius: 5px;
 		background: white;
 	}
-	a:hover {
-		color: #057cea;
-	}
-
 	h2 {
 		margin-top: 0;
 	}
@@ -107,15 +103,15 @@
 					<div class="half">
 						<h2>Bedriftspresentasjon</h2>
 						<ul class="nox">
-							<li><span>CGI</span> <span>21.09</span></li>
-							<li><span>Mnemonic</span> <span>15.10</span></li>
+							<li><a href="/">CGI</a> <span>21.09</span></li>
+							<li><a href="/">Mnemonic</a> <span>15.10</span></li>
 						</ul>
 					</div>
 					<div class="half">
 						<h2>Møter</h2>
 						<ul class="nox">
-							<li><span>BetaSec</span> <span>17.09</span></li>
-							<li><span>BetaDev</span> <span>24.10</span></li>
+							<li><a href="/">BetaSec</a> <span>17.09</span></li>
+							<li><a href="/">BetaDev</a> <span>24.10</span></li>
 						</ul>
 					</div>
 				</div>
