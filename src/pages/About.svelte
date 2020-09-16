@@ -31,7 +31,7 @@
 		grid-gap: 30px;
 	}
 	p {
-		margin: 0;
+		margin: 20px 0;
 	}
 	.cont {
 		margin: 10px;
@@ -54,7 +54,30 @@
 		<div class="container">
 			<div class="card" in:fly={{y: 20}}>
 				<h2>Om Beta</h2>
-				<p>Beta ble stiftet i xxxx....</p>
+				<p>
+					Beta Engineering & Technology Association er linjeforeningen
+					for studenter som studere Dataingeniørfag ved Universitetet
+					i Agder. I alt er det omlag 350 studenter som er medlem av
+					Beta.
+				</p>
+				<p>
+					Beta ble grunnlagt i 2006 mens det fortsatt het Høyskolen i
+					Agder, deretter, under flyttingen i 2010 så fulgte Beta med
+					inn på Universitetet i Agder.
+				</p>
+				<p>
+					Beta har hatt en lang tradisjon med å forbedre det
+					studentsosiale mulighet rundt studiet for studenter. Beta
+					har blant annet arrangert BetaLAN og Retrokveld som er helt
+					åpent for alle studenter, og arrangert bedriftpresentasjoner
+					som har hjulpet studenter ut i arbeidslivet.
+				</p>
+				<p>
+					Siden oppstarten har Beta vært underlagt STA
+					(STudentorganisasjonen i Agder), men det var først i 2014 at
+					Beta for første gang ble registrert i Brønnøysund Registeret
+					som en frivillig organisasjon under STA..
+				</p>
 			</div>
 			<div class="card" in:fly={{y: 20}}>
 				<h2>Interessegrupper</h2>
