@@ -6,6 +6,7 @@
 	import Events from './pages/Events.svelte';
 	import Bedrift from './pages/Bedrift.svelte';
 	import About from './pages/About.svelte';
+	import Footer from './components/Footer.svelte';
 </script>
 
 <Head />
@@ -21,3 +22,4 @@
 <Route path="/about">
 	<About />
 </Route>
+<Footer />

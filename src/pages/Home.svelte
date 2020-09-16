@@ -122,7 +122,7 @@
 			</div>
 
 			<div class="card">
-				<h2>Hovedsponsor</h2>
+				<h2>Hovedsamarbeidspartner</h2>
 				<a href="https://www.soprasteria.no/"><img
 						alt="sponsor-logo"
 						src={sopraLogo}

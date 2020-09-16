@@ -29,4 +29,5 @@ textarea {
 
 main {
 	max-width: 1100px;
+	min-height: calc(100vh - 120px);
 }
