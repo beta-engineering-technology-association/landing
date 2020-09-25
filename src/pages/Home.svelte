@@ -13,10 +13,6 @@
 </script>
 
 <style>
-	main {
-		max-width: 1100px;
-		margin: 0 auto;
-	}
 	.container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -41,17 +37,6 @@
 	.nytt {
 		grid-area: nytt;
 	}
-
-	.card {
-		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-		padding: 30px;
-		border-radius: 5px;
-		background: white;
-	}
-	h2 {
-		margin-top: 0;
-	}
-
 	ul {
 		list-style: none;
 		padding: 0px;
