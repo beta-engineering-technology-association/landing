@@ -27,7 +27,7 @@
 
 <nav class="head">
 	<e class="active" />
-	<a class="logo" href="/"><img height="32" alt="logo" src={logo} /></a>
+	<a class="logo" href="/"><img height="48" alt="logo" src={logo} /></a>
 	<a class="link" use:active href="/events">ARRANGEMENTER</a>
 	<a class="link" use:active href="/jobs">STILLINGSANNONSER</a>
 	<a class="link" use:active href="/bedrift">FOR BEDRIFTER</a>

@@ -21,7 +21,27 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
+		grid-template-areas:
+			'header header'
+			'bedpres partner'
+			'nytt facebook ';
 	}
+	.header {
+		grid-area: header;
+	}
+	.bedpres {
+		grid-area: bedpres;
+	}
+	.partner {
+		grid-area: partner;
+	}
+	.facebook {
+		grid-area: facebook;
+	}
+	.nytt {
+		grid-area: nytt;
+	}
+
 	.card {
 		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 		padding: 30px;
@@ -63,11 +83,6 @@
 		font-weight: normal;
 		color: black;
 	}
-	.centerme {
-		margin: 10px auto;
-		width: 50%;
-		padding: 10px;
-	}
 	img {
 		width: 100%;
 	}
@@ -82,16 +97,8 @@
 
 <main>
 	{#if show}
-		<div class="centerme">
-			<a href="https://www.soprasteria.no/"><img
-					alt="soprasteria"
-					src={sopraLogo} /></a>
-			<br />
-			<div class="centerme"><i>HOVEDSAMARBEIDSPARTNER</i></div>
-		</div>
-
 		<div class="container" in:fly={{y: 20}}>
-			<div class="card">
+			<div class="card header">
 				<h2>Velkommen til BETA!</h2>
 				<p>
 					BETA er linjeforeningen for datastudentene ved UiA, og
@@ -105,7 +112,14 @@
 				</p>
 			</div>
 
-			<div class="card">
+			<div class="card partner">
+				<h2>Hovedsamarbeidspartner</h2>
+				<a href="https://www.soprasteria.no/"><img
+						alt="soprasteria"
+						src={sopraLogo} /></a>
+			</div>
+
+			<div class="card bedpres">
 				<div class="cont">
 					<div class="half">
 						<h2>Bedpres / Kurs</h2>
@@ -124,7 +138,7 @@
 				</div>
 			</div>
 
-			<div class="card">
+			<div class="card facebook">
 				<div class="full" in:fly>
 					<h2>Facebook</h2>
 					<div
@@ -148,7 +162,7 @@
 				</div>
 			</div>
 
-			<div class="card">
+			<div class="card nytt">
 				<div>
 					<h2>Siste nytt</h2>
 					<div class="news">
