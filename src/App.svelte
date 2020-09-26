@@ -26,7 +26,7 @@
 <Route path="/bedrift">
 	<Bedrift />
 </Route>
-<Route path="/about">
+<Route path="/about/*">
 	<About />
 </Route>
 <Route path="/event">
