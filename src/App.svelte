@@ -8,6 +8,9 @@
 	import Bedrift from './pages/Bedrift.svelte';
 	import About from './pages/About.svelte';
 	import Footer from './components/Footer.svelte';
+	import Event from './pages/Event.svelte';
+	import Event2 from './pages/Event2.svelte';
+	import Event3 from './pages/Event3.svelte';
 </script>
 
 <Head />
@@ -25,5 +28,14 @@
 </Route>
 <Route path="/about">
 	<About />
+</Route>
+<Route path="/event">
+	<Event />
+</Route>
+<Route path="/event2">
+	<Event2 />
+</Route>
+<Route path="/event3">
+	<Event3 />
 </Route>
 <Footer />

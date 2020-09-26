@@ -17,14 +17,10 @@
 	a {
 		font-size: 20px;
 		margin: 0 15px;
-
 		font-weight: normal;
 	}
-	a:not(:hover) {
-		color: white;
-	}
 	.active {
-		color: white;
+		color: #333;
 		font-weight: bold;
 	}
 </style>
