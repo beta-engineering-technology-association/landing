@@ -64,10 +64,6 @@
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 40px;
 	}
-	p {
-		font-weight: normal;
-		color: black;
-	}
 	img {
 		width: 100%;
 	}
