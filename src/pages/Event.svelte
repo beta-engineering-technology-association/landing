@@ -62,23 +62,8 @@
 					teknologier Norges største IT-konsulentselskap jobber med?
 					Ønsker du å høre mer om hvordan det er å være nyutdannet
 					(graduate) hos oss eller hvordan en sommerjobb kan se ut? Da
-					håper vi å se deg på vår digitale bedriftspresentasjon 6.
-					oktober!
-				</p>
-				<p>
-					Det blir bingo med premie til vinnerne! Arrangementet vil
-					foregå over Zoom eller Teams, og lenke til arrangementet vil
-					bli sent på mail.
-				</p>
-				<p>
-					Det blir selvfølgelig også servering! Hver deltaker kan
-					bruke 200 kroner på mat og drikke, med unntak av sprit, som
-					dere får refundert i etterkant av arrangementet. Maten må
-					dere fikse selv, og helst ha klart til arrangementet
-					begynner. For eksempel kan man benytte tjenester som
-					Foodora. For tilbakebetaling må man vise til kvittering! Mer
-					informasjon om dette kommer på mail til alle påmeldte i
-					etterkant av arrangementet.
+					håper vi å se deg på vår digitale bedriftspresentasjon 5.
+					november!
 				</p>
 			</div>
 			<div class="card info" in:fly={{y: 20}}>
@@ -86,7 +71,7 @@
 				<ul class="nox">
 					<li>
 						<span>Tid</span>
-						<strong>Onsdag 30. september</strong>
+						<strong>Torsdag 5. november kl 16:15</strong>
 					</li>
 					<li><span>Pris</span> <strong>Gratis</strong></li>
 					<li>

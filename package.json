@@ -16,6 +16,9 @@
 		"svelte": "^3.0.0"
 	},
 	"dependencies": {
+		"qrcode": "^1.4.4",
+		"rollup-plugin-node-builtins": "^2.1.2",
+		"rollup-plugin-node-globals": "^1.4.0",
 		"sirv-cli": "^1.0.0",
 		"tinro": "^0.3.5"
 	}

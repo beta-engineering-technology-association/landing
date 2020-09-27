@@ -106,12 +106,12 @@
 						<h2>Bedpres / Kurs</h2>
 						<ul class="nox">
 							<li>
-								<a href="/event">Sopra Steria</a>
-								<span>03.11</span>
+								<a href="/event2">Mnemonic</a>
+								<span>15.10</span>
 							</li>
 							<li>
-								<a href="/event2">Mnemonic</a>
-								<span>09.11</span>
+								<a href="/event">Sopra Steria</a>
+								<span>05.11</span>
 							</li>
 						</ul>
 					</div>

@@ -81,7 +81,7 @@
 				<ul class="nox">
 					<li>
 						<span>Dato</span>
-						<strong>Mandag 9. november</strong>
+						<strong>15. oktober kl 16:15</strong>
 					</li>
 					<li><span>Klokka</span> <strong>16:30</strong></li>
 					<li><span>Pris</span> <strong>Gratis</strong></li>
