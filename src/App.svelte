@@ -11,6 +11,8 @@
 	import Event from './pages/Event.svelte';
 	import Event2 from './pages/Event2.svelte';
 	import Event3 from './pages/Event3.svelte';
+	import Admin2 from './pages/Admin2.svelte';
+	import Admin from './pages/Admin.svelte';
 </script>
 
 <Head />
@@ -37,5 +39,11 @@
 </Route>
 <Route path="/event3">
 	<Event3 />
+</Route>
+<Route path="/admin">
+	<Admin />
+</Route>
+<Route path="/admin2">
+	<Admin2 />
 </Route>
 <Footer />

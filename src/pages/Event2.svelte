@@ -11,15 +11,34 @@
 </script>
 
 <style>
-	.container {
-		display: grid;
-		grid-template-columns: 2fr 1fr;
-		grid-gap: 20px;
-		grid-template-areas:
-			'head head'
-			'content info';
+	@media screen and (max-width: 1280px) {
+		.container {
+			margin: 20px;
+			display: grid;
+			grid-template-columns: 2fr;
+			grid-gap: 20px;
+			grid-template-areas:
+				'head'
+				'info'
+				'content';
+		}
+		img {
+			width: 100%;
+		}
 	}
+	@media screen and (min-width: 1280px) {
+		.container {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-gap: 20px;
+			grid-template-areas:
+				'head head'
+				'content info';
+		}
+	}
+
 	.head {
+		text-align: center;
 		grid-area: head;
 	}
 	.content {
@@ -39,6 +58,9 @@
 	button {
 		width: 100%;
 	}
+	.red {
+		background-color: maroon;
+	}
 </style>
 
 <svelte:head>
@@ -52,10 +74,10 @@
 	{#if show}
 		<div class="container">
 			<div class="card head" in:fly={{y: 20}}>
-				<img width="100%" alt="soprasteria" src={mnemonicLogo} />
+				<img alt="soprasteria" src={mnemonicLogo} />
 			</div>
 			<div class="card content" in:fly={{y: 20}}>
-				<h2>Bedriftspresentasjon med Mnemonic</h2>
+				<h2>Bedriftspresentasjon med mnemonic</h2>
 				<p>
 					mnemonic er Nordens største fagmiljø innen cybersikkerhet,
 					og samarbeider med de største virksomhetene i regionen. Vi
@@ -80,10 +102,13 @@
 				<h2>Info</h2>
 				<ul class="nox">
 					<li>
-						<span>Dato</span>
-						<strong>15. oktober kl 16:15</strong>
+						<span>Start</span>
+						<strong>9. oktober kl 16:00</strong>
 					</li>
-					<li><span>Klokka</span> <strong>16:30</strong></li>
+					<li>
+						<span>Slutt</span>
+						<strong>11. oktober kl 20:00</strong>
+					</li>
 					<li><span>Pris</span> <strong>Gratis</strong></li>
 					<li>
 						<span>Sted</span>
@@ -91,7 +116,8 @@
 					</li>
 					<li><span>Påmeldte</span> <strong>10/40</strong></li>
 				</ul>
-				<button>Meld meg på</button>
+				<button>Vis billett</button>
+				<button class="red">Meld av</button>
 			</div>
 		</div>
 	{/if}

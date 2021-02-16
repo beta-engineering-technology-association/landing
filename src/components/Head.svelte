@@ -5,20 +5,40 @@
 </script>
 
 <style>
-	.head {
-		display: flex;
-		margin: 50px auto 30px auto;
-		max-width: 1100px;
-		align-items: center;
+	@media screen and (max-width: 1280px) {
+		.head {
+			margin: 20px;
+			max-width: 1100px;
+			align-items: center;
+		}
+		a {
+			text-align: center;
+			display: block;
+			margin: 15px 0;
+			font-weight: normal;
+		}
+		.logo {
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 1280px) {
+		.head {
+			display: flex;
+			margin: 50px auto 30px auto;
+			max-width: 1100px;
+			align-items: center;
+		}
+		a {
+			font-size: 20px;
+			margin: 0 15px;
+			font-weight: normal;
+		}
 	}
 	.logo {
 		flex-grow: 1;
 	}
-	a {
-		font-size: 20px;
-		margin: 0 15px;
-		font-weight: normal;
-	}
+
 	.active {
 		color: #333;
 		font-weight: bold;

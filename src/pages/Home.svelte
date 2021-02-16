@@ -13,15 +13,34 @@
 </script>
 
 <style>
-	.container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 20px;
-		grid-template-areas:
-			'header header'
-			'bedpres partner'
-			'nytt facebook ';
+	@media screen and (max-width: 1280px) {
+		main {
+			margin: 20px;
+		}
+		.container {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 20px;
+			grid-template-areas:
+				'header'
+				'partner'
+				'bedpres'
+				'nytt'
+				'facebook';
+		}
 	}
+	@media screen and (min-width: 1280px) {
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 20px;
+			grid-template-areas:
+				'header header'
+				'bedpres partner'
+				'nytt facebook ';
+		}
+	}
+
 	.header {
 		grid-area: header;
 	}

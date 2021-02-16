@@ -56,7 +56,7 @@
 				<img width="100%" alt="soprasteria" src={sopraLogo} />
 			</div>
 			<div class="card content" in:fly={{y: 20}}>
-				<h2>Bedriftspresentasjon med Sopra Steria</h2>
+				<h2>Bedriftspresentasjon med Sopra Steria [FORHÅNDSVISNING]</h2>
 				<p>
 					Vil du vite mer om hvilke spennende prosjekter og
 					teknologier Norges største IT-konsulentselskap jobber med?
@@ -76,7 +76,8 @@
 					<li><span>Pris</span> <strong>Gratis</strong></li>
 					<li>
 						<span>Sted</span>
-						<span><a href="https://bit.ly/39Hoib0">Digitalt</a></span>
+						<span><a
+								href="https://bit.ly/39Hoib0">Digitalt</a></span>
 					</li>
 					<li><span>Påmeldte</span> <strong>10/40</strong></li>
 				</ul>
